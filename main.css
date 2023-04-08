@@ -1,0 +1,234 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+}
+sup{
+    font-size: 10px;
+    font-weight: 600;
+}
+.rewards.left-right-section{
+    margin-top: 32px;
+    display: flex;
+    margin-bottom: 32px;
+
+}
+
+.rewards.left-right-section .image{
+    width: 50%;
+}
+
+.rewards.left-right-section .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.rewards.left-right-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4e9e2;
+}
+
+.rewards.left-right-section h1{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.text h1{
+    margin: 0;
+    font-size: x-large;
+}
+
+.text h3{
+    font-weight: 520;
+}
+
+.cta{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px black solid;
+    font-weight:600;
+    line-height: 1.2;
+}
+
+.cta:hover{
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
+}
+
+.easter-basket{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.easter-basket .image{
+    width: 50%;
+}
+
+.easter-basket .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.easter-basket .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6bfd9;
+}
+
+.easter-basket .text h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color : #1e3932;
+}
+
+.easter-basket .text h3{
+    font-size: 24px;
+    font-weight: 549;
+    margin: 1px;
+}
+
+.easter-basket .text .cta1{
+    margin-top: 32px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px #1e3932 solid;
+    font-weight: 600 ;
+    color: #1e3932;
+    
+
+}
+
+.cta1:hover{
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
+}
+
+.brighten-your-day{
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.brighten-your-day .image{
+    width: 50%;
+}
+
+.brighten-your-day .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.brighten-your-day .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0c292;
+    color: #1e3932;
+}
+
+.brighten-your-day .text h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.brighten-your-day .text h3{
+    font-size: 24px;
+    font-weight: 549;
+    margin: 1px;
+}
+
+
+.cta2{
+    margin-top: 32px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px black solid;
+    font-weight: 600;
+}
+
+.cta2:hover{
+    background-color:rgba(0,0,0,.06) ;
+    cursor: pointer;
+}
+
+.savory-and-satisfying{
+    display: flex;
+    margin-bottom: 32px;
+    background-color: #d4e9e2;
+}
+
+.savory-and-satisfying .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1e3932;
+
+}
+
+.savory-and-satisfying .text h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.savory-and-satisfying .text h3{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 549;
+    margin: 1px;
+}
+.savory-and-satisfying .image{
+    width: 50%;
+}
+
+.savory-and-satisfying .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.cta3{
+    margin-top: 32px;
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px black solid;
+    font-weight: 600;
+}
+
+.cta3:hover{
+    background-color:rgba(0,0,0,.06) ;
+    cursor: pointer;
+}
+
+.restrictions{
+    height: 89.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.license{
+    height: 89.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
