@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: SoDosans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0.87);
+    background-color: #fff;
+}
+
+header{
+    height: 101px;  
+    box-shadow: 0 1px 3px rgba(222, 205, 205, 0.79),  0.3px 0.3px 0.5px;
+    z-index: 10;
+    position: relative;
+}       
+
+.header-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 51px;
+    width: 51px;
+}
+
+.logo img{
+    height: 100%;
+    padding-right: 333px;
+    
+}
+
+.left-nav{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+
+}
+
+.left-nav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.left-nav nav ul li{
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight:800;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin: 10px;
+    font-size: small;
+    
+}
+
+.left-nav nav ul li:hover{
+    color: #00754a;
+}
+
+.find-store{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-weight: 600;
+    height: 32px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    left: 2px;
+}
+
+.logo1{
+    padding-right: 8px;
+    size: 50%;
+}
+
+.sign-in, .join-now{
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px black solid;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.sign-in{
+    margin-right: 16px;
+    margin-left: 40px;
+    letter-spacing: 0.1;
+    
+}
+
+.sign-in:hover{
+    background-color: rgba(0,0,0,.06);
+    cursor: pointer;
+}
+
+.join-now{
+    background-color: black;
+    color: white;
+    transition: all .2s ease;
+}
+
+.join-now:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+    cursor: pointer;
+}
+
+.find-store, .sign-in, .join-now{
+    font-size: 80%;
+}
+
+
+.find-store i{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.find-store :hover {
+    color: #00754a;
+    cursor: pointer;
+}
