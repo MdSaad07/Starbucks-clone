@@ -93,12 +93,14 @@ sup{
     font-size: 50px;
     letter-spacing: 2px;
     color : #1e3932;
+    margin-bottom: 30px;
 }
 
 .easter-basket .text h3{
     font-size: 24px;
     font-weight: 549;
     margin: 1px;
+    color : #1e3932;
 }
 
 .easter-basket .text .cta1{
@@ -137,7 +139,7 @@ sup{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a0c292;
+    background-color: #fff4d4;
     color: #1e3932;
 }
 
