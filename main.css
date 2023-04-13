@@ -1,5 +1,6 @@
+
 .main-container{
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
 }
 
@@ -11,13 +12,13 @@ a{
     color: inherit;
 }
 sup{
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 600;
 }
 .rewards.left-right-section{
-    margin-top: 32px;
+    margin-top: 2rem;
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 
 }
 
@@ -27,7 +28,7 @@ sup{
 
 .rewards.left-right-section .image img{
     width: 100%;
-    height: 100%;
+    
 }
 
 .rewards.left-right-section .text{
@@ -40,7 +41,7 @@ sup{
 }
 
 .rewards.left-right-section h1{
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     font-size: 1.4rem;
 }
 
@@ -54,9 +55,9 @@ sup{
 }
 
 .cta{
-    padding: 7px 16px;
-    border-radius: 50px;
-    border: 1px black solid;
+    padding: 0.438rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.063rem black solid;
     font-weight:600;
     line-height: 1.2;
 }
@@ -68,7 +69,7 @@ sup{
 
 .easter-basket{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .easter-basket .image{
@@ -90,24 +91,24 @@ sup{
 }
 
 .easter-basket .text h1{
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 3.125rem;
+    letter-spacing: 0.125rem;
     color : #1e3932;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .easter-basket .text h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 549;
-    margin: 1px;
+    margin: 0.063rem;
     color : #1e3932;
 }
 
 .easter-basket .text .cta1{
-    margin-top: 32px;
-    padding: 7px 16px;
-    border-radius: 50px;
-    border: 1px #1e3932 solid;
+    margin-top: 2rem;
+    padding: 0.438rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.063rem #1e3932 solid;
     font-weight: 600 ;
     color: #1e3932;
     
@@ -121,7 +122,7 @@ sup{
 
 .brighten-your-day{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .brighten-your-day .image{
@@ -144,24 +145,24 @@ sup{
 }
 
 .brighten-your-day .text h1{
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    letter-spacing: 2px;
+    font-size: 3.125rem;
+    letter-spacing: 0.125rem;
+    margin-bottom: 1.563;
+    letter-spacing: 0.125rem;
 }
 
 .brighten-your-day .text h3{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 549;
-    margin: 1px;
+    margin: 0.063rem;
 }
 
 
 .cta2{
-    margin-top: 32px;
-    padding: 7px 16px;
-    border-radius: 50px;
-    border: 1px black solid;
+    margin-top: 2rem;
+    padding: 0.438rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.063rem black solid;
     font-weight: 600;
 }
 
@@ -172,7 +173,7 @@ sup{
 
 .savory-and-satisfying{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
     background-color: #d4e9e2;
 }
 
@@ -187,15 +188,15 @@ sup{
 }
 
 .savory-and-satisfying .text h1{
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 3.125rem;
+    letter-spacing: 0.125rem;
 }
 
 .savory-and-satisfying .text h3{
     margin: 0;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 549;
-    margin: 1px;
+    margin: 0.063rem;
 }
 .savory-and-satisfying .image{
     width: 50%;
@@ -207,10 +208,10 @@ sup{
 }
 
 .cta3{
-    margin-top: 32px;
-    padding: 7px 16px;
-    border-radius: 50px;
-    border: 1px black solid;
+    margin-top: 2rem;
+    padding: 0.438rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.063rem black solid;
     font-weight: 600;
 }
 
@@ -220,17 +221,53 @@ sup{
 }
 
 .restrictions{
-    height: 89.2px;
+    height: 5.575rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .license{
-    height: 89.2px;
+    height: 5.575rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
+    text-align: center;
 }
+
+@media only screen and (max-width: 850px){
+    .rewards.left-right-section, .easter-basket, .brighten-your-day, .savory-and-satisfying{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+    }
+
+    .rewards.left-right-section .image, .brighten-your-day .image, .easter-basket .image, .savory-and-satisfying .image{
+        width: 100%;
+    }
+
+    .rewards.left-right-section .text, .easter-basket .text, .brighten-your-day .text, .savory-and-satisfying .text{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .easter-basket, .savory-and-satisfying{
+        flex-direction: column-reverse;
+    }
+
+    .rewards.left-right-section h1, h3{
+        margin: 2rem 1rem;
+        text-align: center;
+    }
+    
+    .license, .restrictions{
+        text-align: center;
+        align-items: center;
+    }
+}
+
