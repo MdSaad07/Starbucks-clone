@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     font-family: SoDosans,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -7,28 +8,29 @@ body{
 }
 
 header{
-    height: 101px;  
-    box-shadow: 0 1px 3px rgba(222, 205, 205, 0.79),  0.3px 0.3px 0.5px;
+    height: 6.313rem;  
+    box-shadow: 0 0.063rem 0.188rem rgba(222, 205, 205, 0.79),  0.3px 0.3px 0.5px;
     z-index: 10;
+    margin: 0 auto;
     position: relative;
 }       
 
 .header-container{
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
-    height: 101px;
+    height: 6.313rem;
     display: flex;
     justify-content: space-between;
 }
 
 .logo{
-    height: 51px;
-    width: 51px;
+    height: 3.188rem;
+    width: 3.188rem;
 }
 
 .logo img{
     height: 100%;
-    padding-right: 333px;
+    
     
 }
 
@@ -50,11 +52,11 @@ header{
 
 .left-nav nav ul li{
     text-transform: uppercase;
-    padding-left: 24px;
+    padding-left: 1.5rem;
     font-weight:800;
     letter-spacing: 0.1em;
     cursor: pointer;
-    margin: 10px;
+    margin: 0.625rem;
     font-size: small;
     
 }
@@ -66,33 +68,33 @@ header{
 .find-store{
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 2.5rem;
     font-weight: 600;
-    height: 32px;
+    height: 2rem;
 }
 
 .right-nav{
     display: flex;
     align-items: center;
-    left: 2px;
+    left: 0.125rem;
 }
 
 .logo1{
-    padding-right: 8px;
+    padding-right: 0.5rem;
     size: 50%;
 }
 
 .sign-in, .join-now{
-    padding: 7px 16px;
-    border-radius: 50px;
-    border: 1px black solid;
+    padding: 0.438rem 1rem;
+    border-radius: 3.125rem;
+    border: 0.063rem black solid;
     font-weight: 600;
     line-height: 1.2;
 }
 
 .sign-in{
-    margin-right: 16px;
-    margin-left: 40px;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
     letter-spacing: 0.1;
     
 }
@@ -120,11 +122,38 @@ header{
 
 
 .find-store i{
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .find-store :hover {
     color: #00754a;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .header-container{
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    
+    .left-nav nav ul li{
+        margin: 0.0625rem
+        
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0;
+    }
+
+    .left-nav, .right-nav{
+        width: 50;
+        margin: 0 auto;
+
+    }
 }
