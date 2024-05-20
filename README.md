@@ -2,7 +2,10 @@
 ## Responsive page...give it a try!!
 <h2>Deployed version</h2> 
 ----->https://mdsaad07.github.io/Starbucks-clone/
-## Few Screenshots of the Landing page
+<br>
+<hr>
+<br>
+<h3>Few Screenshots of the Landing page</h3>
 
 ![image](Sample-Images/1.png)
 ![image](Sample-Images/2.png)
