@@ -1,6 +1,6 @@
-<center># Starbucks clone landing page</center>
+# Starbucks clone landing page
 ## Responsive page...give it a try!!
-<h2>Deployed version</h2> 
+<center><h2>Deployed version</h2></center>
 ----->https://mdsaad07.github.io/Starbucks-clone/
 <br>
 <hr>
